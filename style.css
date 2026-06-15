@@ -295,9 +295,12 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:500px;height:
   
   .about-grid{gap: 32px}
   .about-text p{font-size: 0.8rem}
+  .about-text h3{font-size: 1.2rem !important; margin: 24px 0 12px !important}
+  .about-text ul{font-size: 0.8rem !important; gap: 8px !important}
   .about-text p:first-child::first-letter{font-size:1.5rem}
   .info-item{padding: 12px !important; border-radius: var(--radius-sm) !important}
   
+  .skills-grid{grid-template-columns:1fr; gap: 32px}
   .skills-group h3{font-size: 1.25rem}
   .chip{padding: 6px 12px; font-size: 0.7rem}
   
