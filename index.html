@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary Meta Tags -->
+  <title>Arman Singh — Full Stack Developer & Brand Strategist</title>
+  <meta name="title" content="Arman Singh — Full Stack Developer & Brand Strategist">
+  <meta name="description" content="Portfolio of Arman Singh — B.Tech CSE student, Full Stack Developer, and Brand Strategist. Explore case studies, projects, and high-end digital experiences.">
+  <meta name="keywords" content="Arman Singh, Full Stack Developer, Web Developer, Brand Strategist, UI/UX Designer, Nuclipp, JEOswap, Trackademix, Portfolio, React, Node.js">
+  <meta name="author" content="Arman Singh">
+  <meta name="theme-color" content="#050505">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://armansingh.dev/">
+  <meta property="og:title" content="Arman Singh — Full Stack Developer & Brand Strategist">
+  <meta property="og:description" content="Portfolio of Arman Singh — B.Tech CSE student, Full Stack Developer, and Brand Strategist. Explore case studies, projects, and high-end digital experiences.">
+  <meta property="og:image" content="https://armansingh.dev/images/profile.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://armansingh.dev/">
+  <meta property="twitter:title" content="Arman Singh — Full Stack Developer & Brand Strategist">
+  <meta property="twitter:description" content="Portfolio of Arman Singh — B.Tech CSE student, Full Stack Developer, and Brand Strategist. Explore case studies, projects, and high-end digital experiences.">
+  <meta property="twitter:image" content="https://armansingh.dev/images/profile.jpg">
+
+  <!-- Links -->
+  <link rel="canonical" href="https://armansingh.dev/">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+</head>
+<body>
+
+  <div class="grain"></div>
+  <canvas id="bgCanvas"></canvas>
+
+  <!-- ── Navbar ── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">Arman.</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#achievements">More</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-toggle" id="navToggle">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- ── Hero ── -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <div class="hero-tag"><span class="dot"></span> Available for new ventures</div>
+        <h1 class="hero-name" style="margin-bottom: 0;">
+          Arman
+          <span class="last">Singh</span>
+        </h1>
+        <h2 class="hero-tagline">Building <span class="highlight">Digital Businesses</span> from scratch.</h2>
+        <p class="hero-role" style="max-width: 540px; font-size: 1.05rem; line-height: 1.8;">Entrepreneur, Product Builder, and Creative Director specializing in startups, YouTube automation, and scalable systems.</p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn btn-primary">View Case Studies <span>↓</span></a>
+          <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="floating-chip chip-1"><i class="fa-brands fa-youtube" style="color: #ff0000;"></i> YouTube Automation</div>
+        <div class="floating-chip chip-2"><i class="fa-solid fa-rocket" style="color: #a78bfa;"></i> Startup Strategy</div>
+        <div class="floating-chip chip-3"><i class="fa-solid fa-palette" style="color: #ec4899;"></i> Creative Director</div>
+        
+        <div class="hero-3d-card">
+          <div class="card-avatar">
+            <img src="images/profile.jpg" alt="Arman Singh" class="avatar-img">
+          </div>
+          <div class="card-name">Arman Singh</div>
+          <div class="card-title">Full Stack Developer</div>
+          <div class="card-stats">
+            <div class="card-stat">
+              <div class="card-stat-val">150+</div>
+              <div class="card-stat-label">Projects</div>
+            </div>
+            <div class="card-stat">
+              <div class="card-stat-val">50+</div>
+              <div class="card-stat-label">Clients</div>
+            </div>
+            <div class="card-stat">
+              <div class="card-stat-val">5+ Yrs</div>
+              <div class="card-stat-label">Experience</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Brands / Partners ── -->
+  <div class="brands-section reveal">
+    <p class="brands-title">Brands I've Built & Partnered With</p>
+    <div class="brands-marquee">
+      <div class="brands-track">
+        <div class="brand-item">
+          <img src="images/Malabar.jpg" alt="Malabar">
+          <span class="brand-name">Malabar</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/JEO SWAP LOGO-01-01.png" alt="JEOswap">
+          <span class="brand-name">JEOswap</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Controverse.jpg" alt="Controverse">
+          <span class="brand-name">Controverse</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Wear Lusso LOGO Concept - BG.png" alt="Wear Lusso">
+          <span class="brand-name">Wear Lusso</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Ministrry Of oats.png" alt="Ministry of Oats">
+          <span class="brand-name">Ministry of Oats</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Digital Dwaar.jpg" alt="Digital Dwaar">
+          <span class="brand-name">Digital Dwaar</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Badshahi Zyka.jpg" alt="Badshahi Zyka">
+          <span class="brand-name">Badshahi Zyka</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Nuclipp.jpg" alt="Nuclipp">
+          <span class="brand-name">Nuclipp</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Sunny's Fitness.PNG" alt="Sunny's Fitness">
+          <span class="brand-name">Sunny's Fitness</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Tribher.png" alt="Tribher">
+          <span class="brand-name">Tribher</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Urbanest Infra.png" alt="Urbanest Infra">
+          <span class="brand-name">Urbanest</span>
+        </div>
+        <!-- Duplicated for infinite scroll effect -->
+        <div class="brand-item">
+          <img src="images/Malabar.jpg" alt="Malabar">
+          <span class="brand-name">Malabar</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/JEO SWAP LOGO-01-01.png" alt="JEOswap">
+          <span class="brand-name">JEOswap</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Controverse.jpg" alt="Controverse">
+          <span class="brand-name">Controverse</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Wear Lusso LOGO Concept - BG.png" alt="Wear Lusso">
+          <span class="brand-name">Wear Lusso</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Ministrry Of oats.png" alt="Ministry of Oats">
+          <span class="brand-name">Ministry of Oats</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Digital Dwaar.jpg" alt="Digital Dwaar">
+          <span class="brand-name">Digital Dwaar</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Badshahi Zyka.jpg" alt="Badshahi Zyka">
+          <span class="brand-name">Badshahi Zyka</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Nuclipp.jpg" alt="Nuclipp">
+          <span class="brand-name">Nuclipp</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Sunny's Fitness.PNG" alt="Sunny's Fitness">
+          <span class="brand-name">Sunny's Fitness</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Tribher.png" alt="Tribher">
+          <span class="brand-name">Tribher</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Urbanest Infra.png" alt="Urbanest Infra">
+          <span class="brand-name">Urbanest</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── About ── -->
+  <section class="section" id="about">
+    <div class="reveal">
+      <div class="section-label">About Me</div>
+      <h2 class="section-title">Professional Summary</h2>
+      <p class="section-subtitle">Taking ideas from concept to execution by designing systems, creating brands, developing products, and building scalable growth strategies.</p>
+    </div>
+    <div class="about-grid">
+      <div class="about-text reveal reveal-delay-1">
+        <p>I specialize in building <span class="highlight">digital businesses</span> from the ground up—combining branding, content production, product strategy, software planning, marketing systems, and growth operations.</p>
+        <p>My experience spans across <span class="highlight">YouTube automation</span>, startup development, brand identity design, SaaS planning, digital marketing, content production, and business process automation.</p>
+        <p>Over the years, I have worked across multiple industries including Content Creation, Digital Marketing, Real Estate, Electric Mobility, Educational Technology, and Branding.</p>
+        
+        <h3 style="font-family: var(--font-display); font-size: 1.5rem; margin: 32px 0 16px; color: var(--text);">Key Achievements</h3>
+        <ul style="list-style: none; display: flex; flex-direction: column; gap: 12px; font-weight: 300; font-size: 0.9rem; color: var(--text-secondary);">
+          <li style="position: relative; padding-left: 20px;"><span style="position: absolute; left: 0; color: var(--accent);">›</span> Built and operated Nuclipp, a content creation and YouTube automation agency.</li>
+          <li style="position: relative; padding-left: 20px;"><span style="position: absolute; left: 0; color: var(--accent);">›</span> Designed and planned JEOswap's EV financing and subscription ecosystem.</li>
+          <li style="position: relative; padding-left: 20px;"><span style="position: absolute; left: 0; color: var(--accent);">›</span> Developed Trackademix, an AI-powered educational platform.</li>
+          <li style="position: relative; padding-left: 20px;"><span style="position: absolute; left: 0; color: var(--accent);">›</span> Created brand identities for Urbanest Infra, Tribher, and Malabar Cafe.</li>
+        </ul>
+      </div>
+      <div class="about-info reveal reveal-delay-2">
+        <div class="info-item glass">
+          <div class="label">Location</div>
+          <div class="value">India</div>
+        </div>
+        <div class="info-item glass">
+          <div class="label">Email</div>
+          <div class="value"><a href="mailto:armansingh1196@gmail.com">armansingh1196@gmail.com</a></div>
+        </div>
+        <div class="info-item glass">
+          <div class="label">Expertise</div>
+          <div class="value">Product Strategy & Brand Design</div>
+        </div>
+        <div class="info-item glass">
+          <div class="label">Website</div>
+          <div class="value"><a href="https://nuclipp-website.vercel.app/" target="_blank">nuclipp.vercel.app</a></div>
+        </div>
+        <div class="info-item glass">
+          <div class="label">YouTube</div>
+          <div class="value"><a href="https://www.youtube.com/@VIPangle-07" target="_blank">@VIPangle-07</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Skills ── -->
+  <!-- ── Skills Matrix ── -->
+  <section class="section" id="skills">
+    <div class="reveal">
+      <div class="section-label">Expertise</div>
+      <h2 class="section-title">Skills Matrix</h2>
+      <p class="section-subtitle">Core competencies across business operations, technical architecture, marketing, and creative direction.</p>
+    </div>
+    
+    <div class="skills-group reveal reveal-delay-1">
+      <h3>Business & Strategy</h3>
+      <div class="chip-cloud">
+        <span class="chip"><i class="fa-solid fa-briefcase"></i> Startup Strategy</span>
+        <span class="chip"><i class="fa-solid fa-sitemap"></i> Business Model Design</span>
+        <span class="chip"><i class="fa-solid fa-magnifying-glass-chart"></i> Market Research</span>
+        <span class="chip"><i class="fa-solid fa-gears"></i> Operations Planning</span>
+      </div>
+    </div>
+
+    <div class="skills-group reveal reveal-delay-2">
+      <h3>Technology</h3>
+      <div class="chip-cloud">
+        <span class="chip"><i class="fa-brands fa-html5"></i> HTML</span>
+        <span class="chip"><i class="fa-brands fa-css3-alt"></i> CSS</span>
+        <span class="chip"><i class="fa-brands fa-js"></i> JS</span>
+        <span class="chip"><i class="fa-brands fa-react"></i> React</span>
+        <span class="chip"><i class="fa-solid fa-bolt"></i> Vite</span>
+        <span class="chip"><i class="fa-brands fa-node-js"></i> Node.js</span>
+        <span class="chip"><i class="fa-solid fa-database"></i> MongoDB</span>
+        <span class="chip"><i class="fa-solid fa-database"></i> Supabase</span>
+        <span class="chip"><i class="fa-brands fa-git-alt"></i> Git</span>
+        <span class="chip"><i class="fa-brands fa-github"></i> GitHub</span>
+        <span class="chip"><i class="fa-solid fa-cloud-arrow-up"></i> Vercel</span>
+        <span class="chip"><i class="fa-solid fa-cloud"></i> Render</span>
+        <span class="chip"><i class="fa-solid fa-robot"></i> AI Integration</span>
+        <span class="chip"><i class="fa-solid fa-mobile-screen"></i> PWA Development</span>
+        <span class="chip"><i class="fa-solid fa-server"></i> ERP Research</span>
+      </div>
+    </div>
+
+    <div class="skills-group reveal reveal-delay-3">
+      <h3>Marketing & Creative</h3>
+      <div class="chip-cloud">
+        <span class="chip"><i class="fa-brands fa-youtube"></i> YouTube SEO</span>
+        <span class="chip"><i class="fa-solid fa-arrow-trend-up"></i> Growth Strategy</span>
+        <span class="chip"><i class="fa-solid fa-bullhorn"></i> Content Marketing</span>
+        <span class="chip"><i class="fa-solid fa-palette"></i> Branding & Logo Design</span>
+        <span class="chip"><i class="fa-solid fa-pen-nib"></i> Script Writing & Production</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Education ── -->
+  <section class="section" id="education">
+    <div class="reveal">
+      <div class="section-label">Academic Journey</div>
+      <h2 class="section-title"><span class="gradient-text">Education</span></h2>
+      <p class="section-subtitle">My academic path that built the foundation for my career.</p>
+    </div>
+    <div class="timeline reveal">
+      <div class="timeline-item glass">
+        <div class="date">Nov 2022 — June 2026</div>
+        <h3>B.Tech, Computer Science & Engineering</h3>
+        <div class="institution">Birsa Institute of Technology, Sindri — Dhanbad, India</div>
+        <div class="grade">CGPA: 7.74</div>
+      </div>
+      <div class="timeline-item glass">
+        <div class="date">2021 — 2022</div>
+        <h3>Senior Secondary (XII)</h3>
+        <div class="institution">Indian School of Learning, Jharia</div>
+        <div class="grade">CBSE: 90%</div>
+      </div>
+      <div class="timeline-item glass">
+        <div class="date">2019 — 2020</div>
+        <h3>Secondary School (X)</h3>
+        <div class="institution">R.S.V.M Dhansar, Dhanbad</div>
+        <div class="grade">CBSE: 95.8%</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Case Studies ── -->
+  <section class="section" id="projects">
+    <div class="reveal">
+      <div class="section-label">Case Studies</div>
+      <h2 class="section-title">Selected Work</h2>
+      <p class="section-subtitle">A collection of ventures, platforms, and brand identities I have built.</p>
+    </div>
+    <div class="case-grid">
+      
+      <!-- Nuclipp -->
+      <div class="case-card glass reveal">
+        <div class="meta">Agency</div>
+        <h3>Nuclipp</h3>
+        <div class="role">Founder & <span class="highlight">Creative Director</span></div>
+        <p>A content creation and YouTube automation agency focused on helping creators and businesses scale through high-quality content and growth systems.</p>
+        <div class="case-tech">
+          <span class="chip">Video Editing</span>
+          <span class="chip">YouTube Automation</span>
+          <span class="chip">Content Strategy</span>
+          <span class="chip">Channel Management</span>
+        </div>
+        <div class="project-links" style="margin-top: 24px;">
+          <button class="btn btn-outline embed-trigger" data-url="https://nuclipp-website.vercel.app/" style="padding:8px 16px; font-size:0.75rem;"><i class="fa-solid fa-window-restore"></i> View Live Site</button>
+        </div>
+      </div>
+
+      <!-- JEOswap -->
+      <div class="case-card glass reveal reveal-delay-1">
+        <div class="meta">Startup</div>
+        <h3>JEOswap</h3>
+        <div class="role">Application Developer & <span class="highlight">Brand Strategist</span></div>
+        <p>An electric mobility and battery subscription platform designed to make EV ownership more affordable through flexible financing and subscription models.</p>
+        <div class="case-tech">
+          <span class="chip">Business Model Design</span>
+          <span class="chip">IoT Integration Planning</span>
+          <span class="chip">Subscription Management</span>
+          <span class="chip">MongoDB Architecture</span>
+        </div>
+      </div>
+
+      <!-- Trackademix -->
+      <div class="case-card glass reveal">
+        <div class="meta">SaaS Product</div>
+        <h3>Trackademix</h3>
+        <div class="role">Product Designer & <span class="highlight">Developer</span></div>
+        <p>An academic performance tracking platform designed to help students monitor progress and improve educational outcomes.</p>
+        <div class="case-tech">
+          <span class="chip">AI Integration</span>
+          <span class="chip">System Architecture</span>
+          <span class="chip">PWA Development</span>
+          <span class="chip">UX Design</span>
+        </div>
+      </div>
+
+      <!-- Urbanest Infra -->
+      <div class="case-card glass reveal reveal-delay-1">
+        <div class="meta">Brand Identity</div>
+        <h3>Urbanest Infra</h3>
+        <div class="role"><span class="highlight">Brand Development</span></div>
+        <p>Developed a premium brand identity for a real estate channel partner firm, including positioning and sales-oriented messaging.</p>
+        <div class="case-tech">
+          <span class="chip">Brand Strategy</span>
+          <span class="chip">Visual Identity</span>
+          <span class="chip">Marketing Positioning</span>
+        </div>
+      </div>
+
+      <!-- Tribher -->
+      <div class="case-card glass reveal">
+        <div class="meta">Brand Identity</div>
+        <h3>Tribher</h3>
+        <div class="role"><span class="highlight">Brand Development</span></div>
+        <p>Created foundational branding concepts, identity direction, and positioning strategy for the brand.</p>
+        <div class="case-tech">
+          <span class="chip">Brand Naming</span>
+          <span class="chip">Identity Exploration</span>
+          <span class="chip">Positioning</span>
+        </div>
+      </div>
+
+      <!-- Malabar Cafe -->
+      <div class="case-card glass reveal reveal-delay-1">
+        <div class="meta">Brand Identity</div>
+        <h3>Malabar Cafe</h3>
+        <div class="role"><span class="highlight">Brand Identity Design</span></div>
+        <p>Designed logo concepts inspired by Malabar culture and aesthetics, setting the visual brand direction.</p>
+        <div class="case-tech">
+          <span class="chip">Logo Design</span>
+          <span class="chip">Visual Identity</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Achievements & Activities ── -->
+  <section class="section" id="achievements">
+    <div class="more-layout" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:60px;">
+      
+      <!-- Left Column: Achievements -->
+      <div>
+        <div class="reveal">
+          <div class="section-label">Recognition</div>
+          <h2 class="section-title"><span class="gradient-text">Achievements</span></h2>
+        </div>
+        <div class="achieve-grid reveal" style="grid-template-columns:1fr; gap:16px;">
+          <div class="achieve-card glass" style="padding:24px;">
+            <div class="trophy"><i class="fa-solid fa-trophy"></i></div>
+            <div>
+              <h3>ISRO IROC Challenge 2024</h3>
+              <p>Pre-Finalist in the prestigious ISRO Robotics Challenge</p>
+            </div>
+          </div>
+          <div class="achieve-card glass" style="padding:24px;">
+            <div class="trophy"><i class="fa-solid fa-bullseye"></i></div>
+            <div>
+              <h3>Sphinx 2024 Qualifier</h3>
+              <p>Qualified for Sphinx 2024 at MNIT Jaipur</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Activities & Hobbies -->
+      <div>
+        <div class="reveal">
+          <div class="section-label">Leadership</div>
+          <h2 class="section-title"><span class="gradient-text">Activities</span></h2>
+        </div>
+        <div class="act-grid reveal" style="grid-template-columns:1fr; gap:16px;">
+          <div class="act-card glass" style="padding:24px;">
+            <h3>Secretary</h3>
+            <div class="org">Aero & Robotics Club, BIT Sindri</div>
+            <p>Coordinated technical events and workshops.</p>
+          </div>
+          <div class="act-card glass" style="padding:24px;">
+            <h3>Placement Coordinator</h3>
+            <div class="org">TAP Cell, BIT Sindri</div>
+            <p>Organized placement drives and recruitment.</p>
+          </div>
+        </div>
+
+        <div class="reveal" style="margin-top:40px">
+          <div class="section-label">Beyond Code</div>
+          <h2 class="section-title" style="font-size:1.5rem"><span class="gradient-text">Hobbies</span></h2>
+          <div class="hobbies-grid" style="margin-top:12px;">
+            <span class="hobby-chip glass"><i class="fa-solid fa-plane"></i> Traveling</span>
+            <span class="hobby-chip glass"><i class="fa-solid fa-book-open"></i> Reading & Writing</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Live Previews ── -->
+  <section class="section" id="previews">
+    <div class="reveal">
+      <div class="section-label">Live Previews</div>
+      <h2 class="section-title">Experience the Work</h2>
+      <p class="section-subtitle">Interact with my latest deployed projects and YouTube content directly.</p>
+    </div>
+    
+    <div class="previews-grid">
+      <!-- YouTube Channel / Video -->
+      <div class="preview-card glass reveal reveal-delay-1">
+        <div class="preview-header">
+          <div class="window-dots"><span></span><span></span><span></span></div>
+          <div class="window-title">youtube.com/@VIPangle-07</div>
+        </div>
+        <div class="preview-frame-wrapper">
+          <iframe src="https://www.youtube.com/embed/GqFicoR56aQ?rel=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      
+      <!-- Nuclipp Website -->
+      <div class="preview-card glass reveal reveal-delay-2">
+        <div class="preview-header">
+          <div class="window-dots"><span></span><span></span><span></span></div>
+          <div class="window-title">nuclipp.vercel.app</div>
+        </div>
+        <div class="preview-frame-wrapper">
+          <iframe src="https://nuclipp-website.vercel.app/" title="Nuclipp Website"></iframe>
+        </div>
+      </div>
+
+      <!-- JEOswap Website -->
+      <div class="preview-card glass reveal reveal-delay-3">
+        <div class="preview-header">
+          <div class="window-dots"><span></span><span></span><span></span></div>
+          <div class="window-title">www.jeoswap.com</div>
+        </div>
+        <div class="preview-frame-wrapper">
+          <iframe src="https://www.jeoswap.com/" title="JEOswap Website"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Brands / Partners ── -->
+  <div class="brands-section reveal">
+    <p class="brands-title">Brands I've Built & Partnered With</p>
+    <div class="brands-marquee">
+      <div class="brands-track">
+        <div class="brand-item">
+          <img src="images/Malabar.jpg" alt="Malabar">
+          <span class="brand-name">Malabar</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/JEO SWAP LOGO-01-01.png" alt="JEOswap">
+          <span class="brand-name">JEOswap</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Controverse.jpg" alt="Controverse">
+          <span class="brand-name">Controverse</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Wear Lusso LOGO Concept - BG.png" alt="Wear Lusso">
+          <span class="brand-name">Wear Lusso</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Ministrry Of oats.png" alt="Ministry of Oats">
+          <span class="brand-name">Ministry of Oats</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Digital Dwaar.jpg" alt="Digital Dwaar">
+          <span class="brand-name">Digital Dwaar</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Badshahi Zyka.jpg" alt="Badshahi Zyka">
+          <span class="brand-name">Badshahi Zyka</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Nuclipp.jpg" alt="Nuclipp">
+          <span class="brand-name">Nuclipp</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Sunny's Fitness.PNG" alt="Sunny's Fitness">
+          <span class="brand-name">Sunny's Fitness</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Tribher.png" alt="Tribher">
+          <span class="brand-name">Tribher</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Urbanest Infra.png" alt="Urbanest Infra">
+          <span class="brand-name">Urbanest</span>
+        </div>
+        <!-- Duplicated for infinite scroll effect -->
+        <div class="brand-item">
+          <img src="images/Malabar.jpg" alt="Malabar">
+          <span class="brand-name">Malabar</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/JEO SWAP LOGO-01-01.png" alt="JEOswap">
+          <span class="brand-name">JEOswap</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Controverse.jpg" alt="Controverse">
+          <span class="brand-name">Controverse</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Wear Lusso LOGO Concept - BG.png" alt="Wear Lusso">
+          <span class="brand-name">Wear Lusso</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Ministrry Of oats.png" alt="Ministry of Oats">
+          <span class="brand-name">Ministry of Oats</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Digital Dwaar.jpg" alt="Digital Dwaar">
+          <span class="brand-name">Digital Dwaar</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Badshahi Zyka.jpg" alt="Badshahi Zyka">
+          <span class="brand-name">Badshahi Zyka</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Nuclipp.jpg" alt="Nuclipp">
+          <span class="brand-name">Nuclipp</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Sunny's Fitness.PNG" alt="Sunny's Fitness">
+          <span class="brand-name">Sunny's Fitness</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Tribher.png" alt="Tribher">
+          <span class="brand-name">Tribher</span>
+        </div>
+        <div class="brand-item">
+          <img src="images/Urbanest Infra.png" alt="Urbanest Infra">
+          <span class="brand-name">Urbanest</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Contact ── -->
+  <section class="section" id="contact">
+    <div class="reveal">
+      <div class="section-label">Let's Connect</div>
+      <h2 class="section-title"><span class="gradient-text">Get in Touch</span></h2>
+      <p class="section-subtitle">Have a project in mind or want to collaborate? Feel free to reach out.</p>
+    </div>
+    <div class="contact-wrapper reveal">
+      <div class="contact-links">
+        <a href="mailto:armansingh1196@gmail.com" class="contact-link glass" id="contact-email">
+          <div class="c-icon"><i class="fa-solid fa-envelope"></i></div>
+          <div>
+            <div class="c-label">Email</div>
+            <div class="c-value">armansingh1196@gmail.com</div>
+          </div>
+        </a>
+        <a href="tel:+917903118040" class="contact-link glass" id="contact-phone">
+          <div class="c-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+          <div>
+            <div class="c-label">Phone</div>
+            <div class="c-value">+91-7903118040</div>
+          </div>
+        </a>
+        <a href="https://linkedin.com/in/armansingh007" target="_blank" class="contact-link glass"
+          id="contact-linkedin">
+          <div class="c-icon"><i class="fa-brands fa-linkedin"></i></div>
+          <div>
+            <div class="c-label">LinkedIn</div>
+            <div class="c-value">linkedin.com/in/armansingh007</div>
+          </div>
+        </a>
+        <a href="https://github.com/armansingh1196" target="_blank" class="contact-link glass" id="contact-github">
+          <div class="c-icon"><i class="fa-brands fa-github"></i></div>
+          <div>
+            <div class="c-label">GitHub</div>
+            <div class="c-value">github.com/armansingh1196</div>
+          </div>
+        </a>
+        <a href="https://nuclipp-website.vercel.app/" target="_blank" class="contact-link glass" id="contact-website">
+          <div class="c-icon"><i class="fa-solid fa-globe"></i></div>
+          <div>
+            <div class="c-label">Website</div>
+            <div class="c-value">nuclipp.vercel.app</div>
+          </div>
+        </a>
+        <a href="https://www.youtube.com/@VIPangle-07" target="_blank" class="contact-link glass" id="contact-youtube">
+          <div class="c-icon"><i class="fa-brands fa-youtube"></i></div>
+          <div>
+            <div class="c-label">YouTube</div>
+            <div class="c-value">@VIPangle-07</div>
+          </div>
+        </a>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <input type="text" placeholder="Your Name" required id="form-name">
+        <input type="email" placeholder="Your Email" required id="form-email">
+        <input type="text" placeholder="Subject" id="form-subject">
+        <textarea placeholder="Your Message" required id="form-message"></textarea>
+        <button type="submit" class="btn btn-primary">Send Message <span>→</span></button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ── Footer ── -->
+  <footer class="footer">
+    <div class="footer-socials">
+      <a href="https://linkedin.com/in/armansingh007" target="_blank" title="LinkedIn" id="footer-linkedin"><i
+          class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/armansingh1196" target="_blank" title="GitHub" id="footer-github"><i
+          class="fa-brands fa-github"></i></a>
+      <a href="https://www.youtube.com/@VIPangle-07" target="_blank" title="YouTube" id="footer-youtube"><i
+          class="fa-brands fa-youtube"></i></a>
+      <a href="https://nuclipp-website.vercel.app/" target="_blank" title="Website" id="footer-website"><i
+          class="fa-solid fa-globe"></i></a>
+      <a href="mailto:armansingh1196@gmail.com" title="Email" id="footer-email"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+    <p>© 2026 Arman Singh. Crafted with passion & code.</p>
+  </footer>
+
+  <!-- ── Global Iframe Modal ── -->
+  <div id="iframeModal" class="modal">
+    <div class="modal-container">
+      <button class="modal-close"><i class="fa-solid fa-xmark"></i></button>
+      <iframe id="modalIframe" class="modal-iframe" src="" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
