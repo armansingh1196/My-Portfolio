@@ -275,8 +275,14 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:500px;height:
   .floating-chip{padding: 8px 14px; font-size: 0.65rem}
   
   .hero-3d-card{width:260px;height:380px}
-  .brands-section{padding:20px 0 60px}
-  .brand-item{width:120px;height:80px;padding:12px}
+  
+  .brands-section{padding:20px 0 40px}
+  .brands-title{font-size: 0.6rem; margin-bottom: 16px}
+  .brands-track{gap: 40px}
+  .brand-item{gap: 10px}
+  .brand-item img{height: 40px !important; filter: grayscale(0%) opacity(1) contrast(100%) !important}
+  .brand-name{font-size: 0.9rem !important; color: var(--accent) !important; opacity: 1 !important}
+  
   .card-avatar{width: 160px; height: 180px; font-size: 1.8rem; margin-bottom: 16px; border-radius: 20px}
   .avatar-img{border-radius: 18px}
   .card-name{font-size: 1.2rem}
@@ -295,7 +301,7 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:500px;height:
   .skills-group h3{font-size: 1.25rem}
   .chip{padding: 6px 12px; font-size: 0.7rem}
   
-  .achieve-grid,.act-grid,.case-grid{grid-template-columns:1fr; gap: 16px}
+  .achieve-grid,.act-grid{grid-template-columns:1fr; gap: 16px}
   
   .timeline{grid-template-columns:1fr; gap: 12px}
   .timeline-item{padding: 16px !important; margin-bottom: 0}
@@ -304,10 +310,15 @@ body::after{content:'';position:fixed;bottom:-20%;right:-10%;width:500px;height:
   .timeline-item .institution{font-size: 0.75rem; margin-bottom: 12px}
   .timeline-item .grade{font-size: 0.8rem}
   
-  .case-card{padding: 16px !important}
-  .case-card h3{font-size: 1.2rem}
-  .case-card p, .case-card ul li{font-size: 0.8rem}
-  .case-tech .chip{font-size: 0.6rem; padding: 4px 10px}
+  .case-grid{grid-template-columns:1fr 1fr; gap: 12px}
+  .case-card{padding: 12px !important; gap: 8px}
+  .case-card .meta{font-size: 0.55rem; margin-bottom: 0}
+  .case-card h3{font-size: 1rem; margin-bottom: 0}
+  .case-card .role{font-size: 0.65rem; margin-bottom: 4px}
+  .case-card p{font-size: 0.7rem; line-height: 1.4; margin-bottom: 8px}
+  .case-tech{gap: 4px}
+  .case-tech .chip{font-size: 0.55rem; padding: 3px 8px}
+  .project-links .btn{padding: 8px 12px; font-size: 0.65rem}
   
   .about-info{grid-template-columns:1fr; gap: 12px}
   
