@@ -25,10 +25,10 @@ class Particle {
     this.speedX = (Math.random() - 0.5) * 0.25;
     this.speedY = (Math.random() - 0.5) * 0.25;
     this.opacity = Math.random() * 0.35 + 0.05;
-    // Warm tones
-    const hue = 25 + Math.random() * 20;
-    const sat = 40 + Math.random() * 30;
-    const light = 65 + Math.random() * 15;
+    // Cool violet tones
+    const hue = 250 + Math.random() * 30;
+    const sat = 50 + Math.random() * 30;
+    const light = 60 + Math.random() * 20;
     this.color = `hsla(${hue}, ${sat}%, ${light}%, ${this.opacity})`;
   }
   update() {
@@ -72,7 +72,7 @@ function connectParticles() {
       const dist = Math.sqrt(dx * dx + dy * dy);
       if (dist < 150) {
         ctx.beginPath();
-        ctx.strokeStyle = `rgba(212, 165, 116, ${0.04 * (1 - dist / 150)})`;
+        ctx.strokeStyle = `rgba(167, 139, 250, ${0.04 * (1 - dist / 150)})`;
         ctx.lineWidth = 0.4;
         ctx.moveTo(particles[i].x, particles[i].y);
         ctx.lineTo(particles[j].x, particles[j].y);
@@ -150,7 +150,7 @@ window.addEventListener('scroll', () => {
   navLinks.querySelectorAll('a').forEach(a => {
     a.style.color = '';
     if (a.getAttribute('href') === '#' + current) {
-      a.style.color = '#d4a574';
+      a.style.color = '#a78bfa';
     }
   });
 });
@@ -177,7 +177,7 @@ document.querySelectorAll('.glass').forEach(card => {
     const rect = card.getBoundingClientRect();
     const x = e.clientX - rect.left;
     const y = e.clientY - rect.top;
-    card.style.background = `radial-gradient(300px circle at ${x}px ${y}px, rgba(212,165,116,0.06), rgba(255,245,230,0.02))`;
+    card.style.background = `radial-gradient(300px circle at ${x}px ${y}px, rgba(167,139,250,0.05), rgba(255,255,255,0.015))`;
   });
   card.addEventListener('mouseleave', () => {
     card.style.background = '';
